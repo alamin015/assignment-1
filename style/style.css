@@ -12,6 +12,11 @@ common css
     max-width: 1200px;
     margin: 0 auto;
 }
+p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
 .btn{
     border-radius: 5px;
     height: 60px;
@@ -57,8 +62,42 @@ Banner section css
     font-weight: 700;
 }
 .banner_content .banner_description{
-    color: #444343;
-    font-size: 16px;
-    font-weight: 400;
     margin: 24px 0 32px 0;
+}
+
+/*---------------------------------------------------
+failure section css
+----------------------------------------------------*/
+.failure{
+    padding: 60px 0;
+}
+.failure_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.failure_text,.failure_img{
+    flex: 1;
+}
+.failure_img img{
+    width: 100%;
+    max-width: 500px;
+}
+.failure_text h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.failure_text > p{
+    margin: 24px 0 16px 0;
+}
+.check_mark_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.icon .fa-check{
+    color: #16D887;
+    margin-right: 10px;
 }
