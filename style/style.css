@@ -101,3 +101,36 @@ failure section css
     color: #16D887;
     margin-right: 10px;
 }
+
+/*---------------------------------------------------
+My Plan section css
+----------------------------------------------------*/
+.plan{
+    padding: 50px 0;
+}
+.plan .plan_title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.plan_categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan_item{
+    text-align: center;
+}
+.plan_item h4{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 12px 0 16px 0;
+}
+.plan_item p{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
