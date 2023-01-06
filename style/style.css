@@ -4,3 +4,61 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+/*---------------------------------------------------
+common css
+----------------------------------------------------*/
+.container{
+    width: 97%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn{
+    border-radius: 5px;
+    height: 60px;
+    padding: 0px 40px;
+    background: #F15B22;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all 0.1s ease-in-out;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #c74411;
+}
+/*---------------------------------------------------
+Banner section css
+----------------------------------------------------*/
+.banner{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../Assets/img/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+
+}
+.banner_flex{
+    height: 90vh;
+    /* padding: 30px 0; */
+    display: flex;
+    align-items: center;
+}
+.empty_div,.banner_content{
+    flex: 1;
+}
+.banner_content{
+    text-align: right;
+}
+.banner_content .banner_title{
+    color: #151414;
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner_content .banner_description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0 32px 0;
+}
