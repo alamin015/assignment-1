@@ -199,18 +199,13 @@ Gradient section css
   height: 50vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(to right, #f15b22, transparent);
-}
-.gradient_bg::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("../Assets/img/watch.png");
+  background: linear-gradient(to right, #f15b22, transparent),url("../Assets/img/watch.png");
   background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 8px;
-  z-index: -1;
+  background-size: cover;
+  /* background-blend-mode: multiply; */
 }
+
 .gradient_content {
   margin-left: 64px;
 }
