@@ -103,6 +103,58 @@ failure section css
 }
 
 /*---------------------------------------------------
+My Card section css
+----------------------------------------------------*/
+.my_card{
+    padding: 60px 0;
+    background: #fafafa;
+}
+.card_heading{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.card_content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card_item{
+    padding: 25px 15px;
+    flex: 1;
+    border: 1px solid #f15d2221;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.card_item:hover:nth-child(odd){
+    background: #f15d2221;
+}
+.card_item:hover:nth-child(even){
+    background: #005fad27;
+}
+.card_item .card_title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.card_item .card_description{
+    font-size: 18px;
+    font-weight: 400;
+}
+.card_item a{
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color:#444343;
+}
+.card_item:hover a{
+    text-decoration: underline;
+    color: #F15B22;
+}
+/*---------------------------------------------------
 My Plan section css
 ----------------------------------------------------*/
 .plan{
