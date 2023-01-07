@@ -142,14 +142,21 @@ Gradient section css
     padding: 50px 0;
 }
 .gradient_bg{
+    position: relative;
     height: 50vh;
-    background-image: url('../Assets/img/gradient3.png'),url('../Assets/img/watch.png');
-    background-repeat: no-repeat;
-    background-size: cover,cover;
-    background-blend-mode: multiply;
-    border-radius: 8px;
     display: flex;
     align-items: center;
+    background: linear-gradient(to right,#F15B22,#f15d2213);
+}
+.gradient_bg::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('../Assets/img/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    z-index: -1;
 }
 .gradient_content{
     margin-left: 64px;
